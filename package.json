@@ -12,5 +12,14 @@
     "boilerplate"
   ],
   "author": "Nika Tsogiaidze",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "rollup": "^2.2.0"
+  }
 }

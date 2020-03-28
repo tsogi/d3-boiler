@@ -1,5 +1,7 @@
+import { min, max } from "./utils";
+
 (() => {
-	console.log("Test console");
+	console.log(min(3,4));
 })();
 
 // The object to expose

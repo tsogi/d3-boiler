@@ -2,7 +2,7 @@ import { min, max } from "./utils";
 import "./styles/main.scss";
 
 (() => {
-	console.log(min(9,4));
+	console.log(min(9,16));
 })();
 
 // The object to expose

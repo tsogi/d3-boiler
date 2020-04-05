@@ -5,8 +5,11 @@
 	<script type="text/javascript" src="build/main.js"></script>
 </head>
 <body>
+	<div id="app">
+		<!-- The visualization renders here -->
+	</div>
 	<script type="text/javascript">
-		console.log(window.d3Object);
+		visualization.render("#app");
 	</script>
 </body>
 </html>

@@ -1,12 +1,5 @@
-import * as d3 from "d3";
-import { min, max } from "./utils";
+import visualization from "./d3/main.js";
 import "./styles/main.scss";
 
-(() => {
-	console.log(min(9,16));
-})();
-
 // The object to expose
-window.d3Object = {
-
-}
+window.visualization = visualization;
